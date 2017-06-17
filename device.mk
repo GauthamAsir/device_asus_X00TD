@@ -532,6 +532,12 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, vendor/asus/X00TD/X00TD-vendor.mk)
 
+# Doze
+PRODUCT_PACKAGES += \
+   ZenfoneDoze
+
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+
 # Camera fixes temp hack by Sunny and Murali
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilds/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \

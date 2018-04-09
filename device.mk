@@ -456,6 +456,11 @@ PRODUCT_COPY_FILES += \
 #PRODUCT_PACKAGES += \
 #    soter
 
+PRODUCT_PACKAGES += \
+    libcurl \
+    tcpdump \
+    AsusParts
+
 #PRODUCT_BOOT_JARS += \
 #    soter
 

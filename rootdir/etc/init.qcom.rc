@@ -228,6 +228,11 @@ on boot
 
     # Create hvdcp_opti directory
     mkdir /persist/hvdcp_opti 0770 root system
+    # Permissions for Swipe2Wake
+    chown system system /sys/bus/i2c/devices/i2c-3/3-0038/swipeup_mode
+
+    # Amplifier Calibration
+    start spk_amp_cal
 
 # msm specific files that need to be created on /data
 on post-fs-data

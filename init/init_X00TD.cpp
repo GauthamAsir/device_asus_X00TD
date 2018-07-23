@@ -35,12 +35,15 @@
 #include <android-base/strings.h>
 
 #include "property_service.h"
-#include "vendor_init.h"
+
 
 using android::base::GetProperty;
 using android::base::ReadFileToString;
 using android::base::Trim;
 using android::init::property_set;
+
+namespace android {
+namespace init {
 
 static void init_alarm_boot_properties()
 {
@@ -78,4 +81,6 @@ static void init_alarm_boot_properties()
 void vendor_load_properties()
 {
     init_alarm_boot_properties();
+}
+}
 }

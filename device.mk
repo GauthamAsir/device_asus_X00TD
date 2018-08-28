@@ -450,6 +450,7 @@ PRODUCT_BOOT_JARS += \
 
 # Telephony
 PRODUCT_PACKAGES += \
+    qti-telephony-common \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \
@@ -482,7 +483,7 @@ PRODUCT_PACKAGES += \
 
 # Vendor security patch level
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.lineage.build.vendor_security_patch=2018-05-05
+    ro.lineage.build.vendor_security_patch=2018-08-01
 
 # Vibrator
 PRODUCT_PACKAGES += \

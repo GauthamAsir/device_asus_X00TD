@@ -15,4 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xenonhd_X00T.mk
+    $(LOCAL_DIR)/lineage_X00TD.mk
+

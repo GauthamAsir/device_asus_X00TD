@@ -1314,18 +1314,23 @@ lib/liblistenjni.so|d914ac961799957732ac03e7b34cf5eb8a7d7331
 lib/liblistensoundmodel2.so|d1792ba8d2678cd05963aca6e89f4d156870eb0b
 lib64/liblistenjni.so|b10419d835e4270458c75e0f75414ce84e7824fc
 lib64/liblistensoundmodel2.so|7ca63c2c1e8ead10a00c21f417458ca6cd0ad2ca
-vendor/lib/hw/sound_trigger.primary.sdm660.so|22b58f782f34308c42bdacde2ee1aad3e740301e
+vendor/etc/audio.bsd|a8a83254fff006e50a879806a8fd141596290cb3
+vendor/lib/hw/sound_trigger.primary.sdm660.so|6e41431a0d08f071e4ed8ef9aaadb271a1faf094
 vendor/lib/libadpcmdec.so|7c12a153200fd2e9f1f6139fcf40beee1a96f48d
-vendor/lib/libgcs-calwrapper.so|0c4a0700db711c3fffbfdac74cef6b54f278ae11
-vendor/lib/libgcs-ipc.so|32ce32080f5deff1bbd07fb563fdaeb852e3e146
-vendor/lib/libgcs-osal.so|eeda0f28a7be1a5463cb0da0bf4c7534b23d72e4
-vendor/lib/libgcs.so|4e02c27555e40d418181406cdc4a1a094d1ab11e
-vendor/lib/libsmwrapper.so|5406c4930fc71f16d315723d38cc3f316887c6ef
-vendor/lib64/hw/sound_trigger.primary.sdm660.so|77f393d110d9e917d9791c1bc1653b880fd55567
-vendor/lib64/libgcs-calwrapper.so|52682134cdb34a6a85518ea13722fc3b428158e2
-vendor/lib64/libgcs-ipc.so|f2f7e54bf351e009c09c25fcbb216f54af38695e
-vendor/lib64/libgcs-osal.so|0394ae7df035ae7b371969a38aa2b443b26341a0
-vendor/lib64/libgcs.so|152af5321ebe26fe06513c71b63d02f89bd4e01d
+vendor/lib/libgcs-calwrapper.so|57922b4fd8f141eb21b4fa771789b1dba1c23ed6
+vendor/lib/libgcs-ipc.so|6df0dd491d385bc1379c36643a83ae5af6a31830
+vendor/lib/libgcs-osal.so|e040600e22381338ba7c471024a80ec188642092
+vendor/lib/libgcs.so|3755346a8aacdfdac6a756f5a73769baa6bdeba2
+vendor/lib/libnwa.so|54b30f461c1589ed1217019f41e89a9f986eeea4
+vendor/lib/libsmwrapper.so|3ba2c53973436a805dc32395af83129d1b984dca
+vendor/lib/libsse.so|8c6e3270789c102fd871258341041ce29aa5610c
+vendor/lib64/hw/sound_trigger.primary.sdm660.so|ae6b41c76386b804fb807c6016ba62c1ae698578
+vendor/lib64/libgcs-calwrapper.so|091c5ef1ae31c59452804cdf3d8f43aa91a311c2
+vendor/lib64/libgcs-ipc.so|0eed30a36166c9e62e09158c2cd1779b65763884
+vendor/lib64/libgcs-osal.so|b0fc8964c906ed67fe49b19095856a0b226e6c4d
+vendor/lib64/libgcs.so|a6e412e8181ade6c97a97fa60ca2a7a2157bcc7d
+vendor/lib64/libnwa.so|fac04a2253dcc43d1f9de51fe80a7bdcc3fff534
+vendor/lib64/libsse.so|2cd6ab4f250b881fd6073923b636ea42ed8a0ce0
 
 # Media - from Nokia N7+
 lib/libmmosal.so|54fb60b71faa40519bd5ce581f8d04c286654851

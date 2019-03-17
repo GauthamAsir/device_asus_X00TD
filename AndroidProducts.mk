@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_X00TD.mk
+    $(LOCAL_DIR)/cerberus_X00TD.mk

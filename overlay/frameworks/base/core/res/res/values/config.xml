@@ -480,4 +480,7 @@ translatable="false">
 translatable="false">
         <item>org.lineageos.lineageparts.gestures.KeyHandler</item>
     </string-array>
+   <!-- Whether the device has outdated qti-telephony-common.jar -->
+    <bool name="config_oldQtiTelephony">false</bool>
+
 </resources>

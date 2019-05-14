@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/colt_X00TD.mk
+    $(LOCAL_DIR)/stag_X00TD.mk
